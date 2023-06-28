@@ -1,0 +1,28 @@
+.shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F9F5EB;
+
+    &__title {
+        h1 {
+            font-size: 48px;
+            text-align: center;
+            padding: 40px 0;
+            color: #002B5B;
+        }
+    }
+    
+    .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        padding: 0 40px;
+
+        @media screen and (max-width: 750px) {
+            padding: 20px;
+            grid-template-columns: 1fr;
+        }
+    }
+}

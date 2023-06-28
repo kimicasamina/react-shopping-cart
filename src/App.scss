@@ -1,0 +1,32 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: solid 1px hotpink; */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+.btn {
+  padding: 15px 30px;
+  border: solid 1px #002B5B;
+  background-color: #002B5B;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  
+  &:hover {
+    border: solid 1px #EA5455;
+    background-color: #EA5455;
+    transition: all 0.2s ease-in;
+  }
+}
+

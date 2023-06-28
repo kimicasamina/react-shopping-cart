@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ShoppingCart, ShoppingCartSimple } from '@phosphor-icons/react';
-import './navbar.css';
+import './navbar.scss';
 
 const Navbar = () => {
   return (

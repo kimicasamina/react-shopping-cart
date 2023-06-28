@@ -1,5 +1,5 @@
 .Navbar {
-    background-color: #000;
+    background-color: #002B5B;
     padding: 1.25rem 3.75rem;
 }
 
@@ -14,4 +14,15 @@
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+}
+
+@media screen and (max-width: 600px){
+
+    .Navbar {
+        padding: 1.25rem 1.875rem;
+    }
+
+    .Navbar .links {
+        /* background-color: orange; */
+    }          
 }
